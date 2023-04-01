@@ -1,0 +1,48 @@
+body{
+    height:100vh;
+    background: url('./image/pexels-fwstudio-129731.jpg') no-repeat center center/cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:60%;
+    height:250px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    box-shadow:0 0 3px;
+}
+#timer{
+    width:100%;
+    font-size:72px;
+    text-align: center;
+    margin:0px auto;
+    padding-top:25px;
+}
+.buttons{
+    text-align: center; 
+}
+button{
+  
+    margin: 10px 10px;
+    border:none;
+}
+button i{
+    font-size: 200px;
+    padding:10px;
+    color:white;
+}
+#play{
+    font-size: 3rem;
+    background-color:red;
+
+}
+#pause{
+    font-size: 3rem;
+    background-color:yellow;
+
+}
+#reset{
+    font-size:3rem;
+    background-color:blue;
+}
